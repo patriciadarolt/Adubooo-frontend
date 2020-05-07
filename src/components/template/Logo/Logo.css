@@ -1,0 +1,21 @@
+aside.logo {
+	background-color: white;
+	display: flex;
+	justify-content: left; /*Alinha horizontal*/
+	align-items: center; /*Alinha vertical*/
+	height: 93px;
+	width: 190px !important;
+	display: flex;
+}
+img {
+	padding: 20px;
+	margin-top: 11px;
+	margin-bottom: 11px;
+
+	background-color: white;
+}
+@media (max-width: 576px) {
+	aside.logo img {
+		width: 350px;
+	}
+}

@@ -1,0 +1,21 @@
+header.header {
+	background-color: white;
+	padding: 0px 0px;
+	overflow: hidden;
+	white-space: nowrap;
+	box-shadow: var(--shadow);
+}
+
+header.header h1 {
+	font-size: 1.8em;
+	padding-left: 10px;
+}
+h1 i {
+	margin-top: 10px;
+}
+.pad {
+	padding-left: 10px;
+}
+.corverd {
+	color: #2d9442;
+}

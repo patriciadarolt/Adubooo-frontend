@@ -1,0 +1,47 @@
+.btn-primary {
+	color: #fff;
+	background-color: #2d9442;
+	background-color: cutom-color;
+	border-color: #2d9442;
+	border-color: cutom-cor;
+}
+.btn-primary:hover {
+	background-color: #852869;
+}
+.form-control {
+	border-width: 1px;
+}
+#img-logo {
+	padding: 0px 15px;
+	width: 240px;
+	margin-bottom: 20px;
+}
+.Titulo {
+	font-size: 50px;
+	height: 90%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.verde {
+	background-color: #2d9442;
+	height: 627px;
+}
+.branco {
+	background-color: #fff;
+	padding: 40px;
+	border: 2px solid #fff;
+	border-radius: 15px;
+}
+@media all and (min-width: 480px) {
+	.Login {
+		padding: 60px 0;
+	}
+
+	.Login form {
+		margin: 0 auto;
+		max-width: 320px;
+	}
+}

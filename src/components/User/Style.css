@@ -1,0 +1,10 @@
+.cortema {
+	background-color: #2d9442;
+}
+.cortema:a hover {
+	background: linear-gradient(135deg, #07a7e3, #32dac3 100%);
+}
+.borda {
+	border: 2px solid #fff;
+	border-radius: 15px;
+}
