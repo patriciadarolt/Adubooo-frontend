@@ -32,7 +32,7 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"heroku-postbuild": "npm install",
+		"heroku-postbuild": "npm install reactstrap",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
