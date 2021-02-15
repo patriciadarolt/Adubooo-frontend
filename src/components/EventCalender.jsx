@@ -6,7 +6,7 @@ import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 
 const localizer = momentLocalizer(moment);
-const baseUrl = 'http://localhost:3001/clientes';
+const baseUrl = 'https://app-adubooo-backend.herokuapp.com/clientes';
 
 class App extends Component {
 	state = {

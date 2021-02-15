@@ -7,7 +7,7 @@ import Footer from '../template/Footer/Footer';
 import './Home.css';
 import axios from 'axios';
 
-const baseUrl = 'http://localhost:3001/clientes';
+const baseUrl = 'https://app-adubooo-backend.herokuapp.com/clientes';
 const initialState = {
 	user: {
 		nome: '',

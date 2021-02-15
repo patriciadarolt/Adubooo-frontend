@@ -17,7 +17,7 @@ const headerProps = {
 	subtitle: 'Coleta/Peso'
 };
 
-const baseUrl = 'http://localhost:3001/coleta';
+const baseUrl = 'https://app-adubooo-backend.herokuapp.com/coleta';
 const initialState = {
 	user2: {
 		id: '',

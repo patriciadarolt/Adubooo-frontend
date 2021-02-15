@@ -18,7 +18,7 @@ const headerProps = {
 	subtitle: 'Clientes'
 };
 
-const baseUrl = 'http://localhost:3001/clientes';
+const baseUrl = 'https://app-adubooo-backend.herokuapp.com/clientes';
 const initialState = {
 	user: {
 		id: '',

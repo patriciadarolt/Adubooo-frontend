@@ -15,7 +15,7 @@ export default class Login extends Component {
 		console.log(data);
 
 		const method = 'post';
-		const url = 'http://localhost:3001/signin';
+		const url = 'https://app-adubooo-backend.herokuapp.com/signin';
 		axios
 			[method](url, data)
 			.then((resp) => {

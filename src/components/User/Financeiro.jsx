@@ -18,7 +18,7 @@ const headerProps = {
 	subtitle: 'Financeiro'
 };
 
-const baseUrl = 'http://localhost:3001/financeiro';
+const baseUrl = 'https://app-adubooo-backend.herokuapp.com/financeiro';
 const initialState = {
 	user3: {
 		id: '',
