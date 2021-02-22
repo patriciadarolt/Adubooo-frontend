@@ -429,10 +429,18 @@ export default class Cadastro extends Component {
 		);
 	}
 	searchingFor(search) {
-		return function(x) {
-			return x.id.toLowerCase().includes(search.toLowerCase()) || !search;
-		};
-	}
+	    return function (x) {
+	      if(!Array.isArray(x.id)){
+		x.id = [x.id];
+	      }
+	      if (typeof x.id[0] === 'string'){
+		return x.id.toLowerCase().includes(search.toLowerCase()) || !search;
+	      }
+	      else {
+		return x.id.includes(search) || !search;
+	      }
+	    };
+	  }
 
 	renderRows() {
 		console.log(this.state.list);
